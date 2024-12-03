@@ -1,90 +1,58 @@
-# Real-Time Messenger Clone: Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher (2023)
+# Real-Time Messenger Application
 
+This is a fully functional **Real-Time Messenger Application** built using cutting-edge web technologies, combining a modern tech stack with a user-friendly interface for seamless communication.
 
-This is a repository for a Real-Time Messenger Clone: Next.js 13, React, Tailwind, Prisma, MongoDB, NextAuth, Pusher.
+This project showcases my ability to design and develop a real-time chat application from the ground up, incorporating features inspired by industry-standard messaging platforms.
 
+---
 
-Master the art of building a real-time Messenger clone using the latest web development technologies. In this comprehensive tutorial, we'll walk you through the process of creating a fully-functional and visually stunning chat application that rivals the best in the industry.
+## Key Features
 
-Key Features:
+- **Real-Time Messaging**: Instant communication powered by **Pusher**.
+- **Message Notifications**: Alerts for new messages and activity.
+- **Responsive Design**: Ensures compatibility across all devices with **Tailwind CSS**.
+- **Authentication**: 
+  - Credential-based login.
+  - Social logins via **Google** and **GitHub**.
+- **File Sharing**: Upload and share images/files using **Cloudinary CDN**.
+- **User Experience Enhancements**: 
+  - Smooth animations using **Tailwind CSS**.
+  - Robust client-side validation with **react-hook-form**.
+  - Toast-based server-side error notifications with **react-toast**.
+- **Advanced Messaging Features**: 
+  - Message read receipts.
+  - Online/offline user statuses.
+  - Support for both group chats and one-on-one messaging.
+- **User Profile Customization**: Options for profile settings and updates.
+- **Database Operations**:
+  - Writing efficient **POST**, **GET**, and **DELETE** APIs.
+  - Direct database querying from server components for optimized performance.
+- **Real-Time Features**:
+  - Dynamic chat room and channel creation.
+  - Synchronization between server and child components.
 
-- Real-time messaging using Pusher
-- Message notifications and alerts
-- Tailwind design for sleek UI
-- Tailwind animations and transition effects
-- Full responsiveness for all devices
-- Credential authentication with NextAuth
-- Google authentication integration
-- Github authentication integration
-- File and image upload using Cloudinary CDN
-- Client form validation and handling using react-hook-form
-- Server error handling with react-toast
-- Message read receipts
-- Online/offline user status
-- Group chats and one-on-one messaging
-- Message attachments and file sharing
-- User profile customization and settings
-- How to write POST, GET, and DELETE routes in route handlers (app/api)
-- How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
-- Handling relations between Server and Child components in a real-time environment
-- Creating and managing chat rooms and channels
+---
 
-Whether you're an experienced developer looking to expand your skillset or a beginner eager to learn the latest web development technologies, this tutorial has something for everyone. Join us on this exciting journey and take your web development skills to new heights!
+## Tech Stack
 
+- **Next.js 13**: For building server-side rendered React applications.
+- **React**: For crafting dynamic, interactive user interfaces.
+- **Tailwind CSS**: For a modern, responsive, and attractive UI.
+- **Prisma**: ORM for seamless database interactions.
+- **MongoDB**: Scalable NoSQL database for real-time data.
+- **NextAuth**: Secure authentication.
+- **Pusher**: Enables real-time communication.
+- **Cloudinary**: For image and file uploads.
+
+---
+
+## Installation
 
 ### Prerequisites
 
-**Node version 14.x**
+Ensure you have **Node.js (v14.x or newer)** installed.
 
-### Cloning the repository
+### Cloning the Repository
 
-```shell
-git clone https://github.com/AntonioErdeljac/next13-messenger.git
-```
-
-### Install packages
-
-```shell
-npm i
-```
-
-### Setup .env file
-
-
-```js
-DATABASE_URL=
-NEXTAUTH_SECRET=
-
-NEXT_PUBLIC_PUSHER_APP_KEY=
-PUSHER_APP_ID=
-PUSHER_SECRET=
-
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
-
-GITHUB_ID=
-GITHUB_SECRET=
-
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-```
-
-### Setup Prisma
-
-```shell
-npx prisma db push
-
-```
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+```bash
+git clone <your-repo-url>
